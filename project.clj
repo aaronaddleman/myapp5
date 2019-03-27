@@ -41,7 +41,7 @@
   :minify-assets
   [[:css {:source "resources/public/css/site.css"
           :target "resources/public/css/site.min.css"}]]
-  
+
   :cljsbuild
   {:builds {:min
             {:source-paths ["src/cljs" "src/cljc" "env/prod/cljs"]
@@ -89,7 +89,7 @@
                                   [figwheel-sidecar "0.5.18"]
                                   [nrepl "0.6.0"]
                                   [pjstadig/humane-test-output "0.9.0"]
-                                  
+
  ]
 
                    :source-paths ["env/dev/clj"]
